@@ -1,0 +1,11 @@
+{
+  "name": "indonesia-geodata",
+  "version": "0.1.0-alpha.2",
+  "description": "indonesia provinces geodata",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE"
+}
