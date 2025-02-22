@@ -20,5 +20,8 @@
   "homepage": "https://github.com/stoikal/indonesia-geodata",
   "peerDependencies": {
     "@types/geojson": "^7946.0.16"
+  },
+  "devDependencies": {
+    "simplify-geojson": "^1.0.5"
   }
 }

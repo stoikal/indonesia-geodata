@@ -1,5 +1,4 @@
 import fs from "fs";
-import { features } from "process";
 
 const path = "./provinces/sumut.json"
 
