@@ -1,6 +1,6 @@
 {
   "name": "indonesia-geodata",
-  "version": "0.1.0-alpha.3",
+  "version": "0.1.0-alpha.4",
   "description": "indonesia provinces geodata",
   "type": "module",
   "scripts": {
@@ -16,5 +16,6 @@
     "maps",
     "data",
     "regional-data"
-  ]
+  ],
+  "homepage": "https://github.com/stoikal/indonesia-geodata"
 }
