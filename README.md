@@ -20,7 +20,7 @@ let chart = root.container.children.push(
 // Create polygon series
 let polygonSeries = chart.series.push(
   am5map.MapPolygonSeries.new(root, {
-    geoJSON: indonesiaLow,
+    geoJSON: indonesiaLow
   })
 );
 ```
