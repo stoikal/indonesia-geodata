@@ -1,4 +1,4 @@
-const map = { ype: "FeatureCollection", features: [
+const map = { type: "FeatureCollection", features: [
   {
     id: "ID-AC",
     type: "Feature",
