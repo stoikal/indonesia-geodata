@@ -1,0 +1,18 @@
+{
+  "name": "demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "@amcharts/amcharts5": "^5.11.1",
+    "indonesia-geodata": "^0.1.0-beta.2"
+  }
+}
