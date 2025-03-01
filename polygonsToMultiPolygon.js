@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const path = "./provinces/sumut.json"
+const path = "./provinces/aceh.json"
 
 const jsonString = fs.readFileSync(path, 'utf8');
 const json = JSON.parse(jsonString);
