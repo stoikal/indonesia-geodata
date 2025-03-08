@@ -1,20 +1,36 @@
 import * as fs from "fs/promises";
 import path from "path";
 import mapshaper from "mapshaper";
+import { rewindFeatureCollection } from "@placemarkio/geojson-rewind"
 
 const [dirPath] = process.argv.slice(2);
 
 const dTs = "declare const map: GeoJSON.FeatureCollection;\nexport default map;"
+
+const target = [
+  ["indonesiaHigh", 87],
+  ["indonesiaMedium", 41],
+  ["indonesiaLow", 17],
+  ["indonesiaSimplified", 6],
+]
 
 async function main() {
   const merged = await merge();
 
   await writeJSONFile("./merged.json", merged);
 
-  simplifyGeoJSON("./merged.json", "./json/indonesiaHigh.json", 87);
-  simplifyGeoJSON("./merged.json", "./json/indonesiaMedium.json", 41);
-  simplifyGeoJSON("./merged.json", "./json/indonesiaLow.json", 17);
-  simplifyGeoJSON("./merged.json", "./json/indonesiaSimplified.json", 6);
+  await Promise.all(
+    target.map(([key, simplificationPercentage]) => {
+      return simplifyGeoJSON("./merged.json", `./json/${key}.json`, simplificationPercentage);
+    })
+  );
+
+  await Promise.all(
+    target.map(([key]) => {
+      return rewindGeoJson(`./json/${key}.json`, `./json/${key}.json`);
+    })
+  );
+
 };
 
 main();
@@ -51,7 +67,7 @@ async function readNestedJSON(dirPath, results = []) {
 
 async function writeJSONFile(filePath, jsonData) {
   try {
-    const jsonString = JSON.stringify(jsonData, null, 2); // Convert JSON object to string
+    const jsonString = JSON.stringify(jsonData, null); // Convert JSON object to string
 
     await fs.writeFile(filePath, jsonString, "utf8");
     console.log(`JSON data written to ${filePath}`);
@@ -91,3 +107,11 @@ async function simplifyGeoJSON(inputFilePath, outputFilePath, simplificationPerc
   }
 }
 
+async function rewindGeoJson(inputFilePath, outputFilePath, winding = "d3") {
+  const fileContent = await fs.readFile(inputFilePath, "utf8");
+  const jsonData = JSON.parse(fileContent);
+
+  const rewound = rewindFeatureCollection(jsonData, winding);
+
+  await writeJSONFile(outputFilePath, rewound);
+}
