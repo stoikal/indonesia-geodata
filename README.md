@@ -2,7 +2,13 @@
 
 Indonesia Map with 38 Provinces
 
-## Example Usage:
+## Available Maps:
+|name|preview|
+|---|---|
+|indonesiaLow|[link](https://geojson.io/#id=github:stoikal/indonesia-geodata/blob/main/json/indonesiaLow.json&map=4.57/-2.11/118.77)|
+
+
+## Example Usage with Amchart:
 ```
 import * as am5 from "@amcharts/amcharts5";
 import * as am5map from "@amcharts/amcharts5/map";
@@ -24,3 +30,4 @@ let polygonSeries = chart.series.push(
   })
 );
 ```
+

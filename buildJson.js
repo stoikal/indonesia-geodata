@@ -1,4 +1,4 @@
 import fs from "fs";
 import map from "./indonesiaLow.js";
 
-fs.writeFileSync("hello.json", JSON.stringify(map))
+fs.writeFileSync("output.json", JSON.stringify(map))
