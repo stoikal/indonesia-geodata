@@ -6,6 +6,19 @@ const [dirPath] = process.argv.slice(2);
 
 const dTs = "declare const map: GeoJSON.FeatureCollection;\nexport default map;"
 
+async function main() {
+  const merged = await merge();
+
+  await writeJSONFile("./merged.json", merged);
+
+  simplifyGeoJSON("./merged.json", "./json/indonesiaHigh.json", 87);
+  simplifyGeoJSON("./merged.json", "./json/indonesiaMedium.json", 41);
+  simplifyGeoJSON("./merged.json", "./json/indonesiaLow.json", 17);
+  simplifyGeoJSON("./merged.json", "./json/indonesiaSimplified.json", 6);
+};
+
+main();
+
 async function readNestedJSON(dirPath, results = []) {
   try {
     const files = await fs.readdir(dirPath);
@@ -62,13 +75,9 @@ async function merge() {
 
 async function simplifyGeoJSON(inputFilePath, outputFilePath, simplificationPercentage) {
   try {
-    const inputFileContent = await fs.readFile(inputFilePath, "utf8");
-
     const commands = [
       `-i ${inputFilePath}`,
       `-simplify ${simplificationPercentage}% weighted keep-shapes`,
-      "-snap",
-      "-clean",
       `-o ${outputFilePath} format=geojson precision=0.0001`,
     ];
 
@@ -82,14 +91,3 @@ async function simplifyGeoJSON(inputFilePath, outputFilePath, simplificationPerc
   }
 }
 
-async function main () {
-  const merged = await merge();
-  
-  await writeJSONFile("./merged.json", merged);
-
-  simplifyGeoJSON("./merged.json", "./json/indonesiaHigh.json", 90);
-  simplifyGeoJSON("./merged.json", "./json/indonesiaMedium.json", 40);
-  simplifyGeoJSON("./merged.json", "./json/indonesiaLow.json", 10.4);
-}
-
-main()
