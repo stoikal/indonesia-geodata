@@ -2,7 +2,7 @@ import fs from "fs";
 
 const [path] = process.argv.slice(2);
 
-const jsonString = fs.readFileSync(path, 'utf8');
+const jsonString = fs.readFileSync(path, "utf8");
 const json = JSON.parse(jsonString);
 
 const polygonFeatures = json.features;
