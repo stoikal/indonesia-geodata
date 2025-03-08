@@ -1,6 +1,8 @@
 import * as fs from "fs/promises";
 import path from "path";
 
+const [dirPath] = process.argv.slice(2);
+
 async function readNestedJSON(dirPath, results = []) {
   try {
     const files = await fs.readdir(dirPath);
@@ -43,7 +45,7 @@ async function writeJSONFile(filePath, jsonData) {
 }
 
 async function main () {
-  const files = await readNestedJSON("./src/provinces");
+  const files = await readNestedJSON(dirPath);
   
   const featureCollection = {
     type: "FeatureCollection",
