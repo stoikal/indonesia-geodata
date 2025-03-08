@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const path = "./provinces/sumatera/aceh.json"
+const [path] = process.argv.slice(2);
 
 const jsonString = fs.readFileSync(path, 'utf8');
 const json = JSON.parse(jsonString);
