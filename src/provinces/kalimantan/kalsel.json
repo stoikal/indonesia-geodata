@@ -3,7 +3,15 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-KS",
+      "properties": {
+        "name": "Kalimantan Selatan",
+        "id": "ID-KS",
+        "NAME_ENG": "South Kalimantan",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [

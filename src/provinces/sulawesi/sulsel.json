@@ -3,8 +3,17 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-SN",
+      "properties": {
+        "name": "Sulawesi Selatan",
+        "id": "ID-SN",
+        "NAME_ENG": "South Sulawesi",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
+        "type": "MultiPolygon",
         "coordinates": [
           [
             [
@@ -624,8 +633,7 @@
               [120.46434777286066, -5.620856704598566]
             ]
           ]
-        ],
-        "type": "MultiPolygon"
+        ]
       }
     }
   ]

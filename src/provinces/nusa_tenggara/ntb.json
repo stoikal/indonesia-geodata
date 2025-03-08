@@ -3,7 +3,15 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-NB",
+      "properties": {
+        "name": "Nusa Tenggara Barat",
+        "id": "ID-NB",
+        "NAME_ENG": "West Nusa Tenggara",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
         "coordinates": [
           [

@@ -3,8 +3,17 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-JK",
+      "properties": {
+        "name": "Jakarta Raya",
+        "id": "ID-JK",
+        "NAME_ENG": "Jakarta",
+        "CNTRY": "Indonesia",
+        "TYPE": "Daerah Ibu Kota",
+        "TYPE_ENG": "Capital District"
+      },
       "geometry": {
+        "type": "MultiPolygon",
         "coordinates": [
           [
             [
@@ -842,8 +851,7 @@
               [106.73722668837769, -6.032823896054509]
             ]
           ]
-        ],
-        "type": "MultiPolygon"
+        ]
       }
     }
   ]

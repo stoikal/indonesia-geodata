@@ -3,8 +3,17 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-JB",
+      "properties": {
+        "name": "Jawa Barat",
+        "id": "ID-JB",
+        "NAME_ENG": "West Java",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [106.41556595726979, -6.975398959195829],
@@ -169,8 +178,7 @@
             [106.39865772378062, -6.986458974046499],
             [106.41556595726979, -6.975398959195829]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     }
   ]

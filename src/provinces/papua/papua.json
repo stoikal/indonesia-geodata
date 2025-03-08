@@ -3,7 +3,15 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-PA",
+      "properties": {
+        "name": "Papua",
+        "id": "ID-PA",
+        "NAME_ENG": "Papua",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [

@@ -3,8 +3,17 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-KT",
+      "properties": {
+        "name": "Kalimantan Tengah",
+        "id": "ID-KT",
+        "NAME_ENG": "Central Kalimantan",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
+        "type": "MultiPolygon",
         "coordinates": [
           [
             [
@@ -355,10 +364,8 @@
               [113.35875416238241, -3.280095440644274]
             ]
           ]
-        ],
-        "type": "MultiPolygon"
-      },
-      "id": 4
+        ]
+      }
     }
   ]
 }

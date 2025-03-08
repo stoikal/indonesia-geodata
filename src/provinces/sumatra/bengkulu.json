@@ -3,7 +3,15 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-BE",
+      "properties": {
+        "name": "Bengkulu",
+        "id": "ID-BE",
+        "NAME_ENG": "Bengkulu",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [

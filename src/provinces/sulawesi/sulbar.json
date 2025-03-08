@@ -3,7 +3,15 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-SR",
+      "properties": {
+        "name": "Sulawesi Barat",
+        "id": "ID-SR",
+        "NAME_ENG": "West Sulawesi",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
         "coordinates": [
           [

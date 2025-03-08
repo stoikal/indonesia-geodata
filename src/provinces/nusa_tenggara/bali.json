@@ -3,7 +3,15 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-BA",
+      "properties": {
+        "name": "Bali",
+        "id": "ID-BA",
+        "NAME_ENG": "Bali",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [

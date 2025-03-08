@@ -3,8 +3,17 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-JT",
+      "properties": {
+        "name": "Jawa Tengah",
+        "id": "ID-JT",
+        "NAME_ENG": "Central Java",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
+        "type": "MultiPolygon",
         "coordinates": [
           [
             [
@@ -221,8 +230,7 @@
               [110.2513960805926, -5.725242419352114]
             ]
           ]
-        ],
-        "type": "MultiPolygon"
+        ]
       }
     }
   ]

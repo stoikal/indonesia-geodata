@@ -3,7 +3,15 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-PD",
+      "properties": {
+        "name": "Papua Barat Daya",
+        "id": "ID-PD",
+        "NAME_ENG": "Southwest Papua",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
         "coordinates": [
           [

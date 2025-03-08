@@ -3,8 +3,17 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-RI",
+      "properties": {
+        "name": "Riau",
+        "id": "ID-RI",
+        "NAME_ENG": "Riau",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
+        "type": "MultiPolygon",
         "coordinates": [
           [
             [
@@ -286,8 +295,7 @@
               [103.03855570786237, 0.6605061461115582]
             ]
           ]
-        ],
-        "type": "MultiPolygon"
+        ]
       }
     }
   ]

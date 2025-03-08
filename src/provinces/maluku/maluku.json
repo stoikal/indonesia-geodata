@@ -3,7 +3,15 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-MA",
+      "properties": {
+        "name": "Maluku",
+        "id": "ID-MA",
+        "NAME_ENG": "Maluku",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [

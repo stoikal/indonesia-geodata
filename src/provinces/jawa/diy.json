@@ -3,8 +3,17 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-YO",
+      "properties": {
+        "name": "Yogyakarta",
+        "id": "ID-YO",
+        "NAME_ENG": "Yogyakarta",
+        "CNTRY": "Indonesia",
+        "TYPE": "Daerah Istimewa",
+        "TYPE_ENG": "Special Region"
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [110.4466100707586, -7.5418294939795345],
@@ -65,8 +74,7 @@
             [110.46938285831149, -7.624516373439711],
             [110.4466100707586, -7.5418294939795345]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     }
   ]

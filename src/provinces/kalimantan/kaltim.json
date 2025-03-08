@@ -3,7 +3,15 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-KI",
+      "properties": {
+        "name": "Kalimantan Timur",
+        "id": "ID-KI",
+        "NAME_ENG": "East Kalimantan",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [

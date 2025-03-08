@@ -3,7 +3,15 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-JA",
+      "properties": {
+        "name": "Jambi",
+        "id": "ID-JA",
+        "NAME_ENG": "Jambi",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
         "coordinates": [
           [

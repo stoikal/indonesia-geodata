@@ -3,8 +3,17 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-SA",
+      "properties": {
+        "name": "Sulawesi Utara",
+        "id": "ID-SA",
+        "NAME_ENG": "North Sulawesi",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
+        "type": "MultiPolygon",
         "coordinates": [
           [
             [
@@ -384,8 +393,7 @@
               [125.38023729559404, 2.325490073114949]
             ]
           ]
-        ],
-        "type": "MultiPolygon"
+        ]
       }
     }
   ]

@@ -3,7 +3,15 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-KU",
+      "properties": {
+        "name": "Kalimantan Utara",
+        "id": "ID-KU",
+        "NAME_ENG": "North Kalimantan",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [

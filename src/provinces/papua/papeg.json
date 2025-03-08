@@ -3,7 +3,15 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-PE",
+      "properties": {
+        "name": "Papua Pegunungan",
+        "id": "ID-PE",
+        "NAME_ENG": "Highland Papua",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [

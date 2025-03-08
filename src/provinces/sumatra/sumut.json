@@ -3,8 +3,17 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-SU",
+      "properties": {
+        "name": "Sumatera Utara",
+        "id": "ID-SU",
+        "NAME_ENG": "North Sumatra",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
+        "type": "MultiPolygon",
         "coordinates": [
           [
             [
@@ -420,8 +429,7 @@
               [98.49128977979274, -0.025205927171995768]
             ]
           ]
-        ],
-        "type": "MultiPolygon"
+        ]
       }
     }
   ]

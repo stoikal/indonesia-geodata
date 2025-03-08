@@ -3,8 +3,17 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-ST",
+      "properties": {
+        "name": "Sulawesi Tengah",
+        "id": "ID-ST",
+        "NAME_ENG": "Central Sulawesi",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
+        "type": "MultiPolygon",
         "coordinates": [
           [
             [
@@ -771,8 +780,7 @@
               [124.01258716232218, -1.821787502404547]
             ]
           ]
-        ],
-        "type": "MultiPolygon"
+        ]
       }
     }
   ]

@@ -3,8 +3,17 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-KB",
+      "properties": {
+        "name": "Kalimantan Barat",
+        "id": "ID-KB",
+        "NAME_ENG": "West Kalimantan",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
+        "type": "MultiPolygon",
         "coordinates": [
           [
             [
@@ -516,8 +525,7 @@
               [109.13598575095028, -1.2890829980516543]
             ]
           ]
-        ],
-        "type": "MultiPolygon"
+        ]
       }
     }
   ]

@@ -3,8 +3,17 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-SS",
+      "properties": {
+        "name": "Sumatera Selatan",
+        "id": "ID-SS",
+        "NAME_ENG": "South Sumatra",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [103.87689513284904, -4.863797536567974],
@@ -134,8 +143,7 @@
             [103.79283762009919, -4.7741422121776935],
             [103.87689513284904, -4.863797536567974]
           ]
-        ],
-        "type": "Polygon"
+        ]
       }
     }
   ]

@@ -3,7 +3,15 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-SG",
+      "properties": {
+        "name": "Sulawesi Tenggara",
+        "id": "ID-SG",
+        "NAME_ENG": "Southeast Sulawesi",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [

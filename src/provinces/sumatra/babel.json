@@ -3,7 +3,15 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-BB",
+      "properties": {
+        "name": "Kepulauan Bangka Belitung",
+        "id": "ID-BB",
+        "NAME_ENG": "Bangka–Belitung Islands",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [

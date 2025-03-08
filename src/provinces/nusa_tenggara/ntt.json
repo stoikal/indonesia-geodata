@@ -3,7 +3,15 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "ID-NT",
+      "properties": {
+        "name": "Nusa Tenggara Timur",
+        "id": "ID-NT",
+        "NAME_ENG": "East Nusa Tenggara",
+        "CNTRY": "Indonesia",
+        "TYPE": "Provinsi",
+        "TYPE_ENG": "Province"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
