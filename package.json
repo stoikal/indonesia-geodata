@@ -1,13 +1,12 @@
 {
   "name": "indonesia-geodata",
-  "version": "0.1.0-beta.4",
+  "version": "0.1.0-beta.5",
   "description": "indonesia provinces geodata",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "keywords": [
     "geojson",
     "indonesia",
@@ -20,5 +19,9 @@
   "homepage": "https://github.com/stoikal/indonesia-geodata",
   "peerDependencies": {
     "@types/geojson": "^7946.0.16"
+  },
+  "devDependencies": {
+    "@placemarkio/geojson-rewind": "^1.0.2",
+    "mapshaper": "^0.6.102"
   }
 }

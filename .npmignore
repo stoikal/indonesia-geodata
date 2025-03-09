@@ -1,2 +1,5 @@
-demo/
-buildJson.js
+demo
+src
+build
+build.js
+polygonsToMultiPolygon.js
