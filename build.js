@@ -3,7 +3,7 @@ import path from "path";
 import mapshaper from "mapshaper";
 import { rewindFeatureCollection } from "@placemarkio/geojson-rewind"
 
-const [dirPath] = process.argv.slice(2);
+const dirPath = "./src/provinces"
 
 const dTs = "declare const map: GeoJSON.FeatureCollection;\nexport default map;"
 
@@ -28,6 +28,18 @@ async function main() {
   await Promise.all(
     target.map(([key]) => {
       return rewindGeoJson(`./json/${key}.json`, `./json/${key}.json`);
+    })
+  );
+
+  await Promise.all(
+    target.map(([key]) => {
+      return writeJsFile(`./json/${key}.json`, `./${key}.js`);
+    })
+  );
+
+  await Promise.all(
+    target.map(([key]) => {
+      return fs.writeFile(`${key}.d.ts`, dTs, "utf8");
     })
   );
 
@@ -62,6 +74,17 @@ async function readNestedJSON(dirPath, results = []) {
   } catch (err) {
     console.error(`Error reading directory ${dirPath}: ${err}`);
     return [];
+  }
+}
+
+async function readJSONFile(filePath) {
+  try {
+    const fileContent = await fs.readFile(filePath, "utf8");
+    const jsonData = JSON.parse(fileContent);
+
+    return jsonData
+  } catch (err) {
+    console.error(`Error reading JSON file: ${err}`);
   }
 }
 
@@ -108,10 +131,17 @@ async function simplifyGeoJSON(inputFilePath, outputFilePath, simplificationPerc
 }
 
 async function rewindGeoJson(inputFilePath, outputFilePath, winding = "d3") {
-  const fileContent = await fs.readFile(inputFilePath, "utf8");
-  const jsonData = JSON.parse(fileContent);
+  const jsonData = await readJSONFile(inputFilePath);
 
   const rewound = rewindFeatureCollection(jsonData, winding);
 
   await writeJSONFile(outputFilePath, rewound);
+}
+
+async function writeJsFile(inputJsonPath, outputFilePath) {
+  const jsonString = await fs.readFile(inputJsonPath, "utf8");
+    
+  const str = "const map = " + jsonString + "\n" + "export default map;";
+
+  await fs.writeFile(outputFilePath, str, "utf8");
 }
