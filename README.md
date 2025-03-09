@@ -5,10 +5,10 @@ Indonesia Map with 38 Provinces
 ## Available Maps:
 |name|size|preview|
 |---|---|---|
-|indonesiaHigh|~200 KiB|[link](https://geojson.io/#id=github:stoikal/indonesia-geodata/blob/main/json/indonesiaHigh.json&map=4.57/-2.11/118.77)|
-|indonesiaMedium|~100 KiB|[link](https://geojson.io/#id=github:stoikal/indonesia-geodata/blob/main/json/indonesiaMedium.json&map=4.57/-2.11/118.77)|
-|indonesiaLow|~50 KiB|[link](https://geojson.io/#id=github:stoikal/indonesia-geodata/blob/main/json/indonesiaLow.json&map=4.57/-2.11/118.77)|
-|indonesiaSimplified|~25 KiB|[link](https://geojson.io/#id=github:stoikal/indonesia-geodata/blob/main/json/indonesiaSimplified.json&map=4.57/-2.11/118.77)|
+|indonesiaHigh|~200 KiB|[link](https://geojson.io/#id=github:stoikal/indonesia-geodata/blob/main/json/indonesiaHigh.json&map=4/-4/119)|
+|indonesiaMedium|~100 KiB|[link](https://geojson.io/#id=github:stoikal/indonesia-geodata/blob/main/json/indonesiaMedium.json&map=4/-4/119)|
+|indonesiaLow|~50 KiB|[link](https://geojson.io/#id=github:stoikal/indonesia-geodata/blob/main/json/indonesiaLow.json&map=4/-4/119)|
+|indonesiaSimplified|~25 KiB|[link](https://geojson.io/#id=github:stoikal/indonesia-geodata/blob/main/json/indonesiaSimplified.json&map=4/-4/119)|
 
 
 ## Example Usage with Amchart:

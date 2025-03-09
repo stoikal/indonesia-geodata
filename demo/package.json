@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "@amcharts/amcharts5": "^5.11.1",
-    "indonesia-geodata": "^0.1.0-beta.2"
+    "indonesia-geodata": "^0.1.0"
   }
 }
