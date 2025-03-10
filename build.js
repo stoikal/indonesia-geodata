@@ -117,6 +117,7 @@ async function simplifyGeoJSON(inputFilePath, outputFilePath, simplificationPerc
     const commands = [
       `-i ${inputFilePath}`,
       `-simplify ${simplificationPercentage}% weighted keep-shapes`,
+      '-clean',
       `-o ${outputFilePath} format=geojson precision=0.0001`,
     ];
 
