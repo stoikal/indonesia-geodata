@@ -10,7 +10,8 @@
         "NAME_ENG": "West Kalimantan",
         "CNTRY": "Indonesia",
         "TYPE": "Provinsi",
-        "TYPE_ENG": "Province"
+        "TYPE_ENG": "Province",
+        "REGION_CODE": "61"
       },
       "geometry": {
         "type": "MultiPolygon",

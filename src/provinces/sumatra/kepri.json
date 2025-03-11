@@ -10,7 +10,8 @@
         "NAME_ENG": "Riau Islands",
         "CNTRY": "Indonesia",
         "TYPE": "Provinsi",
-        "TYPE_ENG": "Province"
+        "TYPE_ENG": "Province",
+        "REGION_CODE": "21"
       },
       "geometry": {
         "type": "MultiPolygon",

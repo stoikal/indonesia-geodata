@@ -10,7 +10,8 @@
         "NAME_ENG": "North Kalimantan",
         "CNTRY": "Indonesia",
         "TYPE": "Provinsi",
-        "TYPE_ENG": "Province"
+        "TYPE_ENG": "Province",
+        "REGION_CODE": "65"
       },
       "geometry": {
         "type": "MultiPolygon",

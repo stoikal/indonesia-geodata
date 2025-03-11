@@ -10,7 +10,8 @@
         "NAME_ENG": "Jakarta",
         "CNTRY": "Indonesia",
         "TYPE": "Daerah Ibu Kota",
-        "TYPE_ENG": "Capital District"
+        "TYPE_ENG": "Capital District",
+        "REGION_CODE": "31"
       },
       "geometry": {
         "type": "MultiPolygon",

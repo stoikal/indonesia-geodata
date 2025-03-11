@@ -10,7 +10,8 @@
         "NAME_ENG": "Highland Papua",
         "CNTRY": "Indonesia",
         "TYPE": "Provinsi",
-        "TYPE_ENG": "Province"
+        "TYPE_ENG": "Province",
+        "REGION_CODE": "95"
       },
       "geometry": {
         "type": "Polygon",

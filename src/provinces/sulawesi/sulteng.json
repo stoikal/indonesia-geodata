@@ -10,7 +10,8 @@
         "NAME_ENG": "Central Sulawesi",
         "CNTRY": "Indonesia",
         "TYPE": "Provinsi",
-        "TYPE_ENG": "Province"
+        "TYPE_ENG": "Province",
+        "REGION_CODE": "72"
       },
       "geometry": {
         "type": "MultiPolygon",

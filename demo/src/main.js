@@ -19,7 +19,6 @@ const polygonSeries = chart.series.push(
 polygonSeries.mapPolygons.template.setAll({
   tooltipText: "{name}",
   interactive: true,
-  // fill: am5.color(0x4785b5)/
 });
 
 polygonSeries.mapPolygons.template.states.create("hover", {

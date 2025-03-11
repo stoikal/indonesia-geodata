@@ -10,7 +10,8 @@
         "NAME_ENG": "West Sulawesi",
         "CNTRY": "Indonesia",
         "TYPE": "Provinsi",
-        "TYPE_ENG": "Province"
+        "TYPE_ENG": "Province",
+        "REGION_CODE": "76"
       },
       "geometry": {
         "coordinates": [

@@ -10,7 +10,8 @@
         "NAME_ENG": "Papua",
         "CNTRY": "Indonesia",
         "TYPE": "Provinsi",
-        "TYPE_ENG": "Province"
+        "TYPE_ENG": "Province",
+        "REGION_CODE": "91"
       },
       "geometry": {
         "type": "MultiPolygon",

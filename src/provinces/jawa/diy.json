@@ -10,7 +10,8 @@
         "NAME_ENG": "Yogyakarta",
         "CNTRY": "Indonesia",
         "TYPE": "Daerah Istimewa",
-        "TYPE_ENG": "Special Region"
+        "TYPE_ENG": "Special Region",
+        "REGION_CODE": "34"
       },
       "geometry": {
         "type": "Polygon",

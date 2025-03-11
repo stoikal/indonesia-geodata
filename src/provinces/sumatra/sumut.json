@@ -10,7 +10,8 @@
         "NAME_ENG": "North Sumatra",
         "CNTRY": "Indonesia",
         "TYPE": "Provinsi",
-        "TYPE_ENG": "Province"
+        "TYPE_ENG": "Province",
+        "REGION_CODE": "12"
       },
       "geometry": {
         "type": "MultiPolygon",

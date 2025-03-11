@@ -10,7 +10,8 @@
         "NAME_ENG": "West Sumatra",
         "CNTRY": "Indonesia",
         "TYPE": "Provinsi",
-        "TYPE_ENG": "Province"
+        "TYPE_ENG": "Province",
+        "REGION_CODE": "13"
       },
       "geometry": {
         "type": "MultiPolygon",

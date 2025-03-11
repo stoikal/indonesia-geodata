@@ -10,7 +10,8 @@
         "NAME_ENG": "Central Kalimantan",
         "CNTRY": "Indonesia",
         "TYPE": "Provinsi",
-        "TYPE_ENG": "Province"
+        "TYPE_ENG": "Province",
+        "REGION_CODE": "62"
       },
       "geometry": {
         "type": "MultiPolygon",
