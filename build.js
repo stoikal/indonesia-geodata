@@ -56,7 +56,7 @@ async function readNestedJSON(dirPath, results = []) {
       const stats = await fs.stat(filePath);
 
       if (stats.isDirectory()) {
-        await readNestedJSON(filePath, results); 
+        await readNestedJSON(filePath, results);
       } else if (stats.isFile() && file.toLowerCase().endsWith(".json")) {
         try {
           const fileContent = await fs.readFile(filePath, "utf8");
@@ -101,7 +101,7 @@ async function writeJSONFile(filePath, jsonData) {
 
 async function merge() {
   const files = await readNestedJSON(dirPath);
-  
+
   const featureCollection = {
     type: "FeatureCollection",
     features: files.reduce((result, { data }) => {
@@ -141,7 +141,7 @@ async function rewindGeoJson(inputFilePath, outputFilePath, winding = "d3") {
 
 async function writeJsFile(inputJsonPath, outputFilePath) {
   const jsonString = await fs.readFile(inputJsonPath, "utf8");
-    
+
   const str = "const map = " + jsonString + "\n" + "export default map;";
 
   await fs.writeFile(outputFilePath, str, "utf8");

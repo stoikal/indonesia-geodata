@@ -4,9 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Demo</title>
+    <style>
+      #app {
+        margin: auto;
+      }
+
+      main {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+    </style>
   </head>
   <body>
-    <div id="app" style="width: 800px; height: 600px;"></div>
-    <script type="module" src="/src/main.js"></script>
+    <main>
+        <article>
+          <h1>Amchart 5</h1>
+          <div id="amchart-map" style="aspect-ratio: 16/9; border: solid 1px gray;"></div>
+        </article>
+        <br>
+
+        <article>
+          <h1>Leaflet</h1>
+          <div id="leaflet-map" style="aspect-ratio: 16/9; border: solid 1px gray;"></div>
+        </article>
+        <br>
+
+        <script type="module" src="/src/main.js"></script>
+    </main>
   </body>
 </html>

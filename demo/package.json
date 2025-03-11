@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@amcharts/amcharts5": "^5.11.1",
-    "indonesia-geodata": "^0.1.0"
+    "indonesia-geodata": "^0.1.1",
+    "leaflet": "^1.9.4"
   }
 }
