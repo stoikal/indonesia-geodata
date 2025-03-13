@@ -12,7 +12,7 @@ Each `Feature` has the following properties:
 * **`CNTRY`:** (String) The Country name (Indonesia)
 * **`TYPE`:** (String) The province type in Indonesian (e.g., "Provinsi", "Daerah Istimewa").
 * **`TYPE_ENG`:** (String) The province type in English (e.g., "Province", "Special Region").
-* **`REGION_CODE`** (String) Kemendagri Regional Code (e.g., "34")
+* **`REGION_CODE`** (String) Kemendagri Regional Code (e.g., "11", "34")
   
   
 ## Example Feature
