@@ -57,7 +57,7 @@ import indonesiaLow from "indonesia-geodata/indonesiaLow";
 Alternatively, the GeoJSON data is also available as JSON files in the `json` directory.
   
   
-## Example Usage with Amchart 5:
+## Example Usage with Amcharts 5:
 ```
 import * as am5 from "@amcharts/amcharts5";
 import * as am5map from "@amcharts/amcharts5/map";
