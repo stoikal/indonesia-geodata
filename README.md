@@ -1,6 +1,6 @@
 # Indonesia Geodata
 
-This package contains GeoJSON data representing the 38 provinces of Indonesia. Each province is represented as a `Feature` within a `FeatureCollection`. The `Feature`'s geometry is either a `Polygon` or `MultiPolygon`.
+This package contains GeoJSON data representing the 38 provinces of Indonesia. Each province is represented as a `Feature` within a `FeatureCollection`.
 
 ## Feature Properties
 
@@ -54,7 +54,7 @@ The map data can be imported as a JavaScript object:
 ```
 import indonesiaLow from "indonesia-geodata/indonesiaLow";
 ```
-Alternatively, the GeoJSON data is also available as a JSON file in the `json/` directory.
+Alternatively, the GeoJSON data is also available as JSON files in the `json` directory.
   
   
 ## Example Usage with Amchart 5:
