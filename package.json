@@ -1,7 +1,7 @@
 {
   "name": "indonesia-geodata",
   "version": "0.1.2",
-  "description": "indonesia provinces geodata",
+  "description": "indonesia provinces geojson",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
